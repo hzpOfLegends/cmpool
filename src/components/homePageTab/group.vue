@@ -11,7 +11,7 @@
               <ul>
                 <li><img v-bind:src="items.src" alt=""></li>
                 <li>{{items.name}}</li>
-                <li>{{items.obligation}}</li>
+                <li>{{items.obligation}}</li> 
               </ul>
             </div>
           </div>
