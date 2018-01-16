@@ -31,6 +31,9 @@ import miningHistory from '@/components/poolMining/miningHistory'
 import person from '@/components/poolMining/person'
 import statistics from '@/components/poolMining/statistics'
 
+// helpCenter Components
+import mining_begin from '@/components/helpComs/mining_begin'
+
 import common from '@/components/common'
 import header from '@/components/Header/header'
 import commons from '@/containers/commons'
@@ -126,7 +129,11 @@ export default new Router({
         {
           path: 'help',
           name: 'help',
-          component: help
+          component: help,
+          children:[{
+            path:'mining_begin',
+            component:mining_begin
+          }]
         },
         {
           path: 'serve',

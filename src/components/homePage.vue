@@ -92,7 +92,7 @@
                                 <ul class="pulldown">
                                 <li><router-link to=""><i class="fa fa-home fa-fw"></i>主页</router-link></li>
                                 <li><router-link to="/commons"><i class="fa fa-newspaper-o fa-fw"></i>新闻</router-link></li>
-                                <li><router-link to="/common/group"><i class="fa fa-group fa-fw"></i>组</router-link></li>
+                                <li><router-link to="/commons/group"><i class="fa fa-group fa-fw"></i>组</router-link></li>
                                 <li><router-link to=""><i class="fa fa-file-text fa-fw"></i>博客</router-link></li>
                                 </ul>
                             
